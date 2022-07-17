@@ -1,0 +1,8 @@
+*db
+output_files
+*.out
+*.log
+simulation
+*.rpt
+*.bak
+*.vcd
