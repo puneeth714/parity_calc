@@ -1,4 +1,4 @@
-`include "parity_calc.v"
+//`include "parity_calc.v"
 module parity_calc_tb;
 parameter WIDTH=10;
 
@@ -17,7 +17,7 @@ initial begin
     // $dumpvars(0,parity_calc_tb,stream,clk,out);
     stream=101001001;
     $monitor("stream %b out %b",stream,out);
-    repeat(200) #10 stream+=1;
+    repeat(200) #10 stream=stream+1;
     $finish;
 end
 

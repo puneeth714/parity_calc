@@ -14,7 +14,6 @@ Run the following shell command to test the parity check:
 ```
 $ iverilog -g2012 -o parity_calc_tb.vvp parity_calc_tb.v
 $ vvp parity_calc_tb.vvp
-
 ```
 This will produce the following output:
 
@@ -24,8 +23,9 @@ stream {input stream} out {parity check output}
 
 - The design is synthesizable(parity_calc).
 - Below is the image of the design after synthesis.
-![file](syntesis_circuit/parity_calc_yosys.png)
+![Yosys](syntesis_circuit/parity_calc_yosys.png)
 
+![Quartus](syntesis_circuit/parity_calc_quartus.png)
 
 ### Applications
 
