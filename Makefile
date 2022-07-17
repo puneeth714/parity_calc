@@ -19,13 +19,8 @@ COMPILE_ARGS+=-Pparity_calc.WIDTH=$(WIDTH)
 # include cocotb's make rules to take care of the simulator setup
 include $(shell cocotb-config --makefiles)/Makefile.sim
 
-# clean th files
-
-
-
-
-
-
+clean_all:clean
+	rm -rf *.xml __pycache__ sim_build
 
 # # This file is public domain, it can be freely copied without restrictions.
 # # SPDX-License-Identifier: CC0-1.0
