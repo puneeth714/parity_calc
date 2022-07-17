@@ -5,7 +5,14 @@
 - The parity check is a function that takes a list of bits,clk and even or odd parity, and returns a bit.
 - The bit indicates whether the list of bits has an even or odd number of 1s.(depending on the parity type).
 
+### Requirements
 
+- Requires python and any verilog simulator,with cocotb package installed.
+- Supported verilog simulators: icarus,verilator,modelsim,questa etc.,
+
+``` 
+pip3 install cocotb
+```
 ### Test and Verify
 You can use any of the simulators available in the market to simulate the parity check.
 
